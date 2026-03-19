@@ -33,8 +33,11 @@
 
 
 ---
-## Схема архитектуры
+# Схема работы приложения 
+> Для кэширования использовалась стратегия Cache-aside: сначала выполняется попытка получить данные из кэша, и только при их отсутствии происходит обращение к базе данных. После получения данных из БД они сохраняются в кэш для последующих запросов.
 
+## Диаграмма работы Cache-Aside
+![Cache-Aside](./readme_images/cache-aside.jpg)
 
 # Как запустить
 ## Установите Make (GNU Make) в Linux
@@ -68,7 +71,7 @@ sudo pacman -S make
 
 ## Установка docker и docker-compose
 
->Способ установки docker и docker-compose описан на официальном сайте по ссылке [https://docs.docker.com/compose/install/](Docker)
+>Способ установки docker и docker-compose описан на официальном сайте по ссылке [Официальный сайт Docker](https://docs.docker.com/compose/install/)
 
 ## Запуск проекта
 
