@@ -96,3 +96,14 @@ sudo make down
 ```bash
 sudo make test
 ```
+
+# Документация API
+>Ссылки работают только после выполнения команды `sudo make build`
+
+Документация к API доступна по адресу:
+
+http://localhost:8000/api/v1/documentation/
+
+Так же для удобного отслеживания кэша был добавлен redis-insight. Перейти в него можно по ссылке:
+
+http://localhost:5540/
