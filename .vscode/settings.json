@@ -1,0 +1,26 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "always"
+        },
+        "editor.inlayHints.enabled": "on"
+    },
+    "ruff.enable": true,
+    "ruff.importStrategy": "fromEnvironment",
+    "python.languageServer": "Pylance",
+    "python.analysis.languageServerMode": "default",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.indexing": true,
+    "editor.rulers": [
+        79
+    ],
+    "editor.fontSize": 18,
+    "explorer.autoReveal": false,
+    "python.analysis.extraPaths": [
+        "./backend"
+    ]
+}

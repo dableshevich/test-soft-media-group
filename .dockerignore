@@ -1,0 +1,41 @@
+# Локальные настройки и секреты
+.env
+*.env
+.env.local
+secrets/
+*.pem
+*.key
+
+# Виртуальные окружения Python
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Логи и медиа (в продакшене — не нужны в образе)
+logs/
+media/
+staticfiles/
+
+# Docker (сами файлы не нужны в образе)
+.docker/
+Dockerfile*
+.dockerignore
+
+# IDE / редакторы
+.idea/
+.vscode/
+*.swp
+*~
